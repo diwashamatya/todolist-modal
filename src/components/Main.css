@@ -1,0 +1,51 @@
+.main
+{
+  position: relative;
+  border: solid;
+
+  
+}
+.search{
+  position: fixed;
+ right: 0;
+  
+}
+.search-input{
+  display: flex;
+}
+
+.add{
+  border: solid;
+  width: fit-content;
+  padding: 20px;
+  background-color: burlywood;
+ 
+
+}
+.add-form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  padding: 10px;
+
+}
+textarea{
+  padding: 10px;
+
+}
+ul{
+  display: flex;
+  
+  
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+inside-ul{
+  display: flex;
+  flex-direction: column;
+}
