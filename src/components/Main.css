@@ -1,10 +1,13 @@
+
+body{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(194, 166, 166));
+}
+
 .main
 {
   position: relative;
-  border: solid;
-
-  
 }
+
 .search{
   position: fixed;
  right: 0;
@@ -15,13 +18,12 @@
 }
 
 .add{
-  border: solid;
   width: fit-content;
   padding: 20px;
-  background-color: burlywood;
- 
-
+  background-color: rgb(232, 225, 215);
+  border-radius: 15px;
 }
+
 .add-form{
   display: flex;
   flex-direction: column;
@@ -29,6 +31,37 @@
   justify-content: center;
   align-items: center;
 }
+
+button {
+  font-size: large;
+}
+
+.sub-button {
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.add-form textarea{
+  margin: 10px 0px
+}
+
+label {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.add-form button {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-form input {
+  margin: 10px 0px
+}
+
+
+
 input{
   padding: 10px;
 
@@ -38,14 +71,37 @@ textarea{
 
 }
 ul{
-  display: flex;
-  
-  
+  display: flex;  
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+  margin: 50px;
 }
 
-inside-ul{
+.inside-ul{
   display: flex;
   flex-direction: column;
+  border: 1px solid;
+  padding: 5px 5px;
+  width: 300px;
+  background-color: rgb(208, 196, 196);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.btn button {
+  margin: 5px;
+  padding: 5px;
+  background-color: silver;
+  border-radius: 3px;
+  font-size: 20px;
 }
