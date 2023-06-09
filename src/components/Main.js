@@ -163,7 +163,7 @@ function Main() {
             <button type="submit">Add</button>
           </form>
         ) : (
-          <button type="submit" onClick={toggleButton}>
+          <button className="sub-button" type="submit" onClick={toggleButton}>
             Add
           </button>
         )}
@@ -173,9 +173,8 @@ function Main() {
         <ul>
           {searchList.map((data) => (
             <div className="inside-ul" key={data.id}>
-              {data.name}
-              <br />
-              {data.about}
+              <h2>{data.name}</h2>
+              <p>{data.about}</p>
               {editingId === data.id ? (
                 <Edit
                   updatedName={updatedName}
